@@ -344,6 +344,7 @@ public class MainActivity extends Activity {
             accessKey = baseUrl.substring(keyPos + 5);
             baseUrl = baseUrl.substring(0, keyPos);
         }
+        while (baseUrl.endsWith("/")) baseUrl = baseUrl.substring(0, baseUrl.length() - 1);
         if (accessKey.isEmpty()) {
             setStatus("В адресе не найден key. Скопируй полный адрес из окна SubtitleFlow на ПК.", ORANGE);
             return;
