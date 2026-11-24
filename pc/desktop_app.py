@@ -8,6 +8,7 @@ from tkinter import filedialog, messagebox, ttk
 from pathlib import Path
 
 from engine import process_video, SubtitleFlowError
+from srt_editor import open_srt_editor
 from server import start_server, local_ip, PORT, ACCESS_TOKEN
 
 BG = "#0A1020"
@@ -239,6 +240,7 @@ class SubtitleFlowApp:
         else:
             self._set_status("●  Готово!", detail, MINT)
         messagebox.showinfo("SubtitleFlow — готово", f"Русские субтитры созданы:\n\n{result['output']}\n\nСтрок: {result['segments']}")
+        open_srt_editor(self.root, result["output"])
 
     def _failed(self, message):
         self.busy = False
