@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
+  <title id="title">SubtitleFlow desktop and Android interface preview</title>
+  <desc id="desc">Dark navy interface with mint accents, desktop video selection and a matching Android mobile client.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#14263a"/><stop offset="1" stop-color="#080d19"/></linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#192841"/><stop offset="1" stop-color="#111b2d"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity=".36"/></filter>
+  </defs>
+  <rect width="1280" height="760" fill="url(#bg)"/>
+  <circle cx="260" cy="20" r="390" fill="#1c4550" opacity=".16"/>
+  <circle cx="1130" cy="700" r="330" fill="#1c4550" opacity=".12"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect x="54" y="48" width="830" height="660" rx="22" fill="#0c1423" stroke="#31435d" filter="url(#shadow)"/>
+    <path d="M76 48h786a22 22 0 0 1 22 22v34H54V70a22 22 0 0 1 22-22z" fill="#152238"/>
+    <circle cx="82" cy="82" r="6" fill="#fb8d91"/><circle cx="104" cy="82" r="6" fill="#f4c56e"/><circle cx="126" cy="82" r="6" fill="#77d7ae"/>
+    <text x="469" y="87" text-anchor="middle" fill="#8293ac" font-size="12" letter-spacing="1.4">SUBTITLEFLOW — WINDOWS</text>
+    <rect x="91" y="126" width="48" height="48" rx="14" fill="#72e6ca"/>
+    <text x="115" y="160" text-anchor="middle" fill="#0a1020" font-size="27" font-weight="900">S</text>
+    <text x="154" y="147" fill="#f4f7fc" font-size="15" font-weight="800" letter-spacing="2">SUBTITLEFLOW</text>
+    <text x="154" y="166" fill="#94a6be" font-size="9" font-weight="700" letter-spacing="2">VIDEO → RUSSIAN SRT</text>
+    <rect x="752" y="136" width="89" height="28" rx="14" fill="#123739" stroke="#28645b"/>
+    <text x="796" y="154" fill="#72e6ca" text-anchor="middle" font-size="10" font-weight="800">PC + ANDROID</text>
+    <text x="92" y="222" fill="#72e6ca" font-size="10" font-weight="800" letter-spacing="2.2">ТВОЙ ВИДЕО-ПЕРЕВОДЧИК</text>
+    <text x="92" y="266" fill="#f4f7fc" font-size="34" font-weight="850">От видео — к русским</text>
+    <text x="92" y="307" fill="#f4f7fc" font-size="34" font-weight="850">субтитрам.</text>
+    <text x="92" y="337" fill="#9aaabf" font-size="12">Whisper распознаёт речь, переводчик переводит её, сохраняя тайм-коды.</text>
+    <rect x="91" y="364" width="755" height="112" rx="15" fill="url(#panel)" stroke="#293b55"/>
+    <rect x="111" y="382" width="30" height="26" rx="7" fill="#123739"/><text x="126" y="400" fill="#72e6ca" text-anchor="middle" font-size="10" font-weight="800">01</text>
+    <text x="153" y="400" fill="#f4f7fc" font-size="11" font-weight="800" letter-spacing="1">ВЫБОР ВИДЕО</text>
+    <text x="112" y="431" fill="#9aaabf" font-size="11">Выбери видео или аудио на компьютере.</text>
+    <rect x="112" y="443" width="151" height="25" rx="7" fill="#263a56"/>
+    <text x="187" y="460" fill="#f4f7fc" font-size="10" font-weight="700" text-anchor="middle">＋  Выбрать файл</text>
+    <rect x="91" y="490" width="755" height="91" rx="15" fill="url(#panel)" stroke="#293b55"/>
+    <rect x="111" y="508" width="30" height="26" rx="7" fill="#123739"/><text x="126" y="526" fill="#72e6ca" text-anchor="middle" font-size="10" font-weight="800">02</text>
+    <text x="153" y="526" fill="#f4f7fc" font-size="11" font-weight="800" letter-spacing="1">ПАРАМЕТРЫ РАСПОЗНАВАНИЯ</text>
+    <text x="112" y="553" fill="#9aaabf" font-size="10">Язык оригинала</text>
+    <rect x="112" y="559" width="267" height="1" fill="#324862"/>
+    <text x="424" y="553" fill="#9aaabf" font-size="10">Модель Whisper</text>
+    <rect x="424" y="560" width="267" height="1" fill="#324862"/>
+    <rect x="91" y="596" width="755" height="53" rx="13" fill="#72e6ca"/>
+    <text x="469" y="629" text-anchor="middle" fill="#0a1020" font-size="14" font-weight="850">Создать русские субтитры  →</text>
+    <text x="469" y="679" text-anchor="middle" fill="#65758e" font-size="9" font-weight="700" letter-spacing="1.5">LOCAL PROCESSING · WHISPER · SRT</text>
+    <rect x="947" y="63" width="273" height="640" rx="36" fill="#080d16" stroke="#40516a" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="958" y="75" width="251" height="616" rx="27" fill="#0a1020"/>
+    <rect x="1040" y="83" width="87" height="14" rx="7" fill="#080d16"/>
+    <rect x="978" y="117" width="40" height="40" rx="12" fill="#72e6ca"/>
+    <text x="998" y="145" text-anchor="middle" fill="#0a1020" font-size="24" font-weight="900">S</text>
+    <text x="1028" y="134" fill="#f4f7fc" font-size="10" font-weight="850" letter-spacing="1.4">SUBTITLEFLOW</text>
+    <text x="1028" y="149" fill="#94a6be" font-size="7" letter-spacing="1.5">VIDEO → RUSSIAN SRT</text>
+    <text x="978" y="197" fill="#72e6ca" font-size="8" font-weight="800" letter-spacing="1.5">ТВОЙ ВИДЕО-ПЕРЕВОДЧИК</text>
+    <text x="978" y="236" fill="#f4f7fc" font-size="27" font-weight="850">Видео.</text>
+    <text x="978" y="267" fill="#f4f7fc" font-size="27" font-weight="850">Русские</text>
+    <text x="978" y="298" fill="#f4f7fc" font-size="27" font-weight="850">субтитры.</text>
+    <text x="978" y="324" fill="#9aaabf" font-size="9">Выбери ролик на телефоне —</text>
+    <text x="978" y="338" fill="#9aaabf" font-size="9">компьютер распознает речь и</text>
+    <text x="978" y="352" fill="#9aaabf" font-size="9">вернёт SRT с тайм-кодами.</text>
+    <rect x="978" y="373" width="211" height="87" rx="13" fill="url(#panel)" stroke="#293b55"/>
+    <rect x="991" y="386" width="25" height="22" rx="6" fill="#123739"/><text x="1003" y="401" text-anchor="middle" fill="#72e6ca" font-size="8" font-weight="800">01</text>
+    <text x="1025" y="401" fill="#f4f7fc" font-size="8" font-weight="800" letter-spacing=".7">ВЫБОР ВИДЕО</text>
+    <rect x="991" y="420" width="185" height="27" rx="7" fill="#1b2a42" stroke="#30435f"/>
+    <text x="1083" y="438" text-anchor="middle" fill="#9aaabf" font-size="8">Выбрать видеофайл</text>
+    <rect x="978" y="471" width="211" height="83" rx="13" fill="url(#panel)" stroke="#293b55"/>
+    <rect x="991" y="484" width="25" height="22" rx="6" fill="#123739"/><text x="1003" y="499" text-anchor="middle" fill="#72e6ca" font-size="8" font-weight="800">02</text>
+    <text x="1025" y="499" fill="#f4f7fc" font-size="8" font-weight="800" letter-spacing=".7">ПАРАМЕТРЫ</text>
+    <text x="991" y="522" fill="#9aaabf" font-size="8">Язык оригинала</text><text x="1092" y="522" fill="#f4f7fc" font-size="8">Авто ▾</text>
+    <text x="991" y="540" fill="#9aaabf" font-size="8">Модель</text><text x="1092" y="540" fill="#f4f7fc" font-size="8">base ▾</text>
+    <rect x="978" y="565" width="211" height="47" rx="12" fill="#72e6ca"/>
+    <text x="1083" y="594" fill="#0a1020" font-size="10" font-weight="850" text-anchor="middle">Создать SRT  →</text>
+    <rect x="978" y="624" width="211" height="39" rx="10" fill="#141e31" stroke="#293b55"/>
+    <circle cx="994" cy="643" r="4" fill="#72e6ca"/><text x="1006" y="646" fill="#9aaabf" font-size="8">Готово к работе</text>
+  </g>
+</svg>

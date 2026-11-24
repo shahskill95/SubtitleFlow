@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# Local media and generated subtitles
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.m4v
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.srt
+
+# Whisper model cache / temporary output
+.whisper/
+.cache/
+
+# Android / Gradle
+.gradle/
+build/
+**/build/
+local.properties
+*.iml
+.idea/
+
+# Packaging
+*.exe
+*.msi
+*.apk
+*.aab
+/dist/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.log
+.vscode/

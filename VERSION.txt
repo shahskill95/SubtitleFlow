@@ -1,0 +1,2 @@
+SubtitleFlow 1.0.0
+Windows desktop app + native Android client + mobile web interface.
