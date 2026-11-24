@@ -109,7 +109,7 @@ class SrtEditor:
                 "SubtitleFlow", "Файл субтитров пуст. Сохранение отменено.",
                 parent=self.window,
             )
-            return
+            return False
 
         try:
             self.path.write_text(content.rstrip() + "\n", encoding="utf-8-sig")
@@ -118,11 +118,12 @@ class SrtEditor:
                 "SubtitleFlow", f"Не удалось сохранить субтитры:\n{exc}",
                 parent=self.window,
             )
-            return
+            return False
 
         self.dirty = False
         self.text.edit_modified(False)
         self.status.configure(text=f"Сохранено: {self.path}", fg=MINT)
+        return True
 
     def _close(self):
         if self.dirty:
