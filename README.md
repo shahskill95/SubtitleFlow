@@ -133,6 +133,10 @@ python -m unittest discover -s tests -v
 
 Инструкция для первого размещения проекта в собственном аккаунте: [`PUBLISH_TO_GITHUB_RU.md`](PUBLISH_TO_GITHUB_RU.md).
 
+## Готовые сборки EXE и APK
+
+Где скачать portable Windows EXE и Android debug APK после успешной сборки GitHub Actions: [инструкция по сборке и загрузке](BUILDING_RU.md). Бинарные файлы не хранятся в Git, они доступны как краткосрочные workflow artifacts.
+
 ## Участие в разработке
 
 См. [`CONTRIBUTING.md`](CONTRIBUTING.md).
